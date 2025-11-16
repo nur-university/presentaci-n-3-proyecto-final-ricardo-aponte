@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorar Proyectos - CrowdFunding</title>
+    <link rel="stylesheet" href="style/proyecto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header class="header-principal">
+        <div class="contenedor navegacion">
+            <ul class="menu-izquierda">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="explorar.html" class="nav-link nav-link-activo">Explorar</a></li>
+            </ul>
+
+            <ul class="menu-derecha">
+                <li><a href="autenticacion.html" class="nav-link">Iniciar sesión</a></li>
+                <li><a href="registro.html" class="btn-primario">Registrarse</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="contenedor seccion-explorar">
+        <h1 class="titulo-seccion">Recaudaciones de Fondo</h1>
+
+        <section class="barra-filtros">
+            <div class="campo-busqueda">
+                <label for="busqueda">Buscar proyectos</label>
+                <input type="text" id="busqueda" class="input-busqueda" placeholder="Buscar proyectos por nombre...">
+            </div>
+            <div class="campo-filtro">
+                <label for="categoria">Categoría</label>
+                <select id="categoria" class="select-filtro">
+                    <option value="">Todas las categorías</option>
+                    <option value="salud">Salud</option>
+                    <option value="educacion">Educación</option>
+                    <option value="tecnologia">Tecnología</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="proyectos-grid">
+
+            <article class="tarjeta-proyecto">
+                <figure class="tarjeta-imagen">
+                    <img src="image/proyecto1.jpeg" alt="Robot Educativo" class="tarjeta-imagen-placeholder">
+                </figure>
+                <div class="tarjeta-contenido">
+                    <header>
+                        <span class="tarjeta-categoria">Educación</span>
+                        <h3 class="tarjeta-titulo">Robot Educativo para escuelas rurales</h3>
+                    </header>
+                    
+                    <div class="progreso-container">
+                        <div class="progreso-barra progreso-75"></div>
+                    </div>
+                    
+                    <footer class="tarjeta-footer">
+                        <span>Recaudado: <span class="meta-recaudado">$3,750</span></span>
+                        <span>75%</span>
+                    </footer>
+                </div>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <figure class="tarjeta-imagen">
+                    <img src="image/proyecto2.jpeg" alt="Unidad móvil de atención" class="tarjeta-imagen-placeholder opacity-60">
+                </figure>
+                <div class="tarjeta-contenido">
+                    <header>
+                        <span class="tarjeta-categoria">Salud</span>
+                        <h3 class="tarjeta-titulo">Unidad móvil de atención primaria</h3>
+                    </header>
+                    <div class="progreso-container">
+                        <div class="progreso-barra progreso-30"></div>
+                    </div>
+                    <footer class="tarjeta-footer">
+                        <span>Recaudado: <span class="meta-recaudado">$4,500</span></span>
+                        <span>30%</span>
+                    </footer>
+                </div>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <figure class="tarjeta-imagen">
+                    <img src="image/proyecto3.jpeg" alt="Huerto urbano" class="tarjeta-imagen-placeholder opacity-70">
+                </figure>
+                <div class="tarjeta-contenido">
+                    <header>
+                        <span class="tarjeta-categoria">Comunidad</span>
+                        <h3 class="tarjeta-titulo">Huerto urbano comunitario fase 2</h3>
+                    </header>
+                    <div class="progreso-container">
+                        <div class="progreso-barra progreso-90"></div>
+                    </div>
+                    <footer class="tarjeta-footer">
+                        <span>Recaudado: <span class="meta-recaudado">$1,800</span></span>
+                        <span>90%</span>
+                    </footer>
+                </div>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <figure class="tarjeta-imagen">
+                    <img src="image/proyecto4.jpeg" alt="App calidad del aire" class="tarjeta-imagen-placeholder opacity-50">
+                </figure>
+                <div class="tarjeta-contenido">
+                    <header>
+                        <span class="tarjeta-categoria">Tecnología</span>
+                        <h3 class="tarjeta-titulo">App para monitoreo de calidad del aire</h3>
+                    </header>
+                    <div class="progreso-container">
+                        <div class="progreso-barra progreso-10"></div>
+                    </div>
+                    <footer class="tarjeta-footer">
+                        <span>Recaudado: <span class="meta-recaudado">$500</span></span>
+                        <span>10%</span>
+                    </footer>
+                </div>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <figure class="tarjeta-imagen">
+                    <img src="image/proyecto5.jpeg" alt="Documental tradiciones" class="tarjeta-imagen-placeholder opacity-90">
+                </figure>
+                <div class="tarjeta-contenido">
+                    <header>
+                        <span class="tarjeta-categoria">Arte</span>
+                        <h3 class="tarjeta-titulo">Documental sobre tradiciones locales</h3>
+                    </header>
+                    <div class="progreso-container">
+                        <div class="progreso-barra progreso-55"></div>
+                    </div>
+                    <footer class="tarjeta-footer">
+                        <span>Recaudado: <span class="meta-recaudado">$2,200</span></span>
+                        <span>55%</span>
+                    </footer>
+                </div>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <figure class="tarjeta-imagen">
+                    <img src="image/proyecto6.jpeg" alt="Refugio de animales" class="tarjeta-imagen-placeholder opacity-40">
+                </figure>
+                <div class="tarjeta-contenido">
+                    <header>
+                        <span class="tarjeta-categoria">Emergencia</span>
+                        <h3 class="tarjeta-titulo">Ayuda para refugio de animales</h3>
+                    </header>
+                    <div class="progreso-container">
+                        <div class="progreso-barra progreso-100"></div>
+                    </div>
+                    <footer class="tarjeta-footer">
+                        <span>Recaudado: <span class="meta-recaudado">$1,000</span></span>
+                        <span class="meta-alcanzada">¡Meta!</span>
+                    </footer>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+</body>
+</html>

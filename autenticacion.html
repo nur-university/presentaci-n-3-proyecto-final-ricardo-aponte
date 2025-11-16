@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - CrowdFunding</title>
+    <link rel="stylesheet" href="style/autenticacion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header-principal">
+        <div class="contenedor navegacion">
+            <ul class="menu-izquierda">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="contenedor-centrado-auth">
+        
+        <div class="tarjeta-auth">
+            <h2 class="titulo-auth">Bienvenidos</h2>
+            
+            <p class="subtitulo-auth">
+                iniciar sesión o <a href="registro.html">regístrate</a> para continuar
+            </p>
+
+            <form class="formulario-auth">
+                
+                <div class="grupo-input">
+                    <label for="email">Dirección de email</label>
+                    <input type="email" id="email" name="email" class="input-auth" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" class="input-auth" required>
+                </div>
+
+                <button type="submit" class="btn-login">Iniciar sesión</button>
+            </form>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
